@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블</title>
+</head>
+<body>
+    <!-- 25..02.26 -->
+    <table border="5" cellspacing="5" width="400" height="100">
+        <!-- cellspacing - 셀과 셀사이 간격 -->
+        <tr>
+            <th>이름</th>
+            <th>주소</th>
+            <th>성별</th>
+            <th>나이</th>
+            <th>나이</th>
+        </tr>
+        <tr>
+            <td>이주희</td>
+            <td>서울시</td>
+            <td colspan="3">여</td>
+            <!-- colspan : 열 병합  -->
+        </tr>
+        <tr>
+            <td>김성훈</td>
+            <td>경기도</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td rowspan="2">조선희</td>
+            <td>경기도</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <!-- <td>김정태</td> - rowspan으로 삭제 -->
+            <td>경기도</td>
+            <td>남</td>
+        </tr>
+    </table>
+</body>
+</html>

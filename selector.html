@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택자</title>
+    <!-- 25.02.27 -->
+    <style>
+        h1 { 
+            /* 태그 선택자 */
+            color: red;
+        }
+        .green {
+            color: green;
+        }
+        .orange {
+            color: orange;
+        }
+        #grape {
+            color: purple;
+        }
+        /* 우선순위 - id > class > tag */
+
+        div {
+            /* 추상적인 영역 */
+            background-color: cornflowerblue;
+            background-image: url('./img/cat.jpg');
+            /* background-image: url(이미지경로); */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="green">사과</h1>
+    <h1 id="grape">포도</h1>
+    <h1 class="orange">바나나</h1>
+    <h1 class="orange">오렌지</h1>
+    <div>
+        <h2>CSS</h2>
+        <p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[2] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[3]</p>
+    </div>
+</body>
+</html>
